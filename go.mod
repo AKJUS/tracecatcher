@@ -1,6 +1,7 @@
 module github.com/probe-lab/tracecatcher
 
 go 1.23
+toolchain go1.24.1
 
 require (
 	contrib.go.opencensus.io/exporter/prometheus v0.4.2
@@ -12,7 +13,7 @@ require (
 	github.com/urfave/cli/v2 v2.24.3
 	go.opencensus.io v0.24.0
 	golang.org/x/exp v0.0.0-20230212135524-a684f29349b6
-	golang.org/x/sync v0.1.0
+	golang.org/x/sync v0.11.0
 )
 
 require (
@@ -48,9 +49,9 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
-	golang.org/x/crypto v0.7.0 // indirect
-	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/text v0.8.0 // indirect
+	golang.org/x/crypto v0.35.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	lukechampine.com/blake3 v1.1.7 // indirect
